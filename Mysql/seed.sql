@@ -29,19 +29,19 @@ INSERT INTO Roles (Title,Salary,Department_id)
 VALUES('Lawyer', 120000, 5);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('Chetan','Kakaria', 1 ,1);
+VALUES('ila','sharma', 1 ,1);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('Kartik','Syal', 2 ,2);
+VALUES('sam','sam', 2 ,2);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('Sant','Malhotra', 3 ,3);
+VALUES('barbie','doll', 3 ,3);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('Anmol','Gupta', 4 ,4);
+VALUES('ken','doll', 4 ,4);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('Pranav','Jain', 5 ,5);
+VALUES('john','smith', 5 ,5);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('Akash','Duggal', 4 ,6);
+VALUES('Joseph','Mogavero', 4 ,6);

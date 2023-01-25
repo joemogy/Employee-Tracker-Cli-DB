@@ -254,13 +254,29 @@ const updateEmployeeRole = () => {
     return inquirer.prompt([{
         type: 'input',
         name: 'employeeFirstName',
-        message: 'Please eneter the First Name'
+        message: 'Please eneter the First Name',
+        validate: employeeFirstName => {
+            if (employeeFirstName) {
+                return true;
+            } else {
+                console.log("Add a Employee First Name");
+                return false;
+            }
+        }
 
     },
     {
         type: 'input',
         name: 'employeeRoleId',
-        message: 'Please eneter the new Role Id'
+        message: 'Please eneter the new Role Id',
+        validate: updatedEmployeeRoleId => {
+            if (updatedEmployeeRoleId) {
+                return true;
+            } else {
+                console.log("Enter new Employee Role Id");
+                return false;
+            }
+        }
 
     }
     ])
