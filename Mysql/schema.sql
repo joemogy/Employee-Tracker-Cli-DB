@@ -19,10 +19,12 @@ CREATE TABLE Roles (
 SELECT * FROM Roles;
 
 CREATE TABLE Employee (
-    Id INT NOT NULL PRIMARY KEY,
+    Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     First_name VARCHAR(30) NOT NULL,
     Last_name VARCHAR(30) NOT NULL,
-    Role_id INT NOT NULL AUTO_INCREMENT,
-    Manager_id INT NULL
+    Role_id INT NOT NULL,
+    Manager_id INT NULL,
+    FOREIGN KEY (Role_id) REFERENCES Roles(Id),
+    FOREIGN KEY (Manager_id) REFERENCES Employee(Id)
 );
 SELECT * FROM Department;
