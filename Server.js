@@ -308,7 +308,6 @@ const exit = () => {
             }
         })
 }
-
 // connection.query('SELECT * FROM Department',(err,result)=>{
 //     console.table(result);
 // });
