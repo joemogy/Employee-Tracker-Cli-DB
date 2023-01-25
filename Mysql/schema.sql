@@ -13,7 +13,7 @@ CREATE TABLE Roles (
     Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     Title VARCHAR(30) NOT NULL,
     Salary INT NOT NULL,
-    Department_id INT,
+    Department_id INT
 );
 
 SELECT * FROM Roles;
