@@ -71,7 +71,7 @@ Make sure you have Insomnia and mySqlworkbench installed on the desktop. The fol
 
 ## Walkthrough
 ```
-https://youtu.be/linklinklink
+https://youtu.be/YavWJomyF5Q
 ```
 
 ## Test
