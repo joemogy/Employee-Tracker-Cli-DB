@@ -29,10 +29,10 @@ INSERT INTO Roles (Title,Salary,Department_id)
 VALUES('Lawyer', 120000, 5);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('ila','sharma', 1 ,1);
+VALUES('Joe','Mogy', 1 ,1);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
-VALUES('sam','sam', 2 ,2);
+VALUES('JoJo','Joey', 2 ,2);
 
 INSERT INTO Employee(First_name,Last_name,Role_id,Manager_id)
 VALUES('barbie','doll', 3 ,3);
