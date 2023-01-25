@@ -14,7 +14,6 @@ CREATE TABLE Roles (
     Title VARCHAR(30) NOT NULL,
     Salary INT NOT NULL,
     Department_id INT,
-    FOREIGN KEY(Department_id) REFERENCES Department(Id)
 );
 
 SELECT * FROM Roles;
@@ -23,8 +22,7 @@ CREATE TABLE Employee (
     Id INT NOT NULL PRIMARY KEY,
     First_name VARCHAR(30) NOT NULL,
     Last_name VARCHAR(30) NOT NULL,
-    Role_id INT NOT NULL, AUTO_INCREMENT
-    FOREIGN KEY (Role_id) REFRENCES Roles(Id),
+    Role_id INT NOT NULL, AUTO_INCREMENT,
     Manager_id INT NULL
 );
 SELECT * FROM Department;

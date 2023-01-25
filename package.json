@@ -1,0 +1,26 @@
+{
+  "name": "employee-Traker-Cli-DB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemogy/employee-Traker-Cli-DB.git"
+  },
+  "keywords": [],
+  "author": "Joseph Mogavero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjoemogy/employee-Traker-Cli-DB/issues"
+  },
+  "homepage": "https://github.com/joemogy/employee-Traker-Cli-DB#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
