@@ -1,28 +1,17 @@
 {
-  "name": "Employee-Traker-Cli-DB",
+  "name": "employee-tracker-cli-db",
   "version": "1.0.0",
-  "description": "This employee tracker is a node app utilizing mysql, inquirer, and console.table to read and update a company's employee data.",
-  "main": "Server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joemogy/Employee-Traker-Cli-DB.git"
-  },
-  "keywords": [],
-  "author": "Joseph Mogavero",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jjoemogy/Employee-Traker-Cli-DB/issues"
-  },
-  "homepage": "https://github.com/joemogy/Employee-Traker-Cli-DB#readme",
   "dependencies": {
-    "chalk": "^4.1.1",
     "console.table": "^0.10.0",
-    "figlet": "^1.5.0",
+    "express": "^4.18.2",
     "inquirer": "^8.2.4",
-    "mysql2": "^2.3.3"
+    "mysql2": "^3.1.0"
   }
 }
