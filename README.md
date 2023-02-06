@@ -81,7 +81,7 @@ node index.js
 
 ## Walkthrough
 ```
-https://youtu.be/YavWJomyF5Q
+[https://youtu.be/YavWJomyF5Q](https://youtu.be/peLLxoLXimQ)
 ```
 
 ## Test
