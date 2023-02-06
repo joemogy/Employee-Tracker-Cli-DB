@@ -51,23 +51,33 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 The youtube link, attached in the following section (Getting Started & Installation) is the mockup of how the backend of the application is ran.
 
-## Getting Started & Installation
-
-To get started with the application,  make sure you have the latest version of Node installed.
-
-Following the installation of Node, clone this repository to the local server to begin generating the Profile page.
-
-Once the repository has been connected, install the following packages in the terminal:
-```
-npm i mysql2@2.3.3 inquirer@6.5.2 console.table@0.10.0 dotenv@16.0.3
-```
-After installation of the packages, in the same terminal, run the application by typing:
+**Getting Started**
+---
+To use this application you first need to install all dependencies by navigating to the root folder and running
 
 ```
-npm start
+npm install
 ```
 
-Make sure you have Insomnia and mySqlworkbench installed on the desktop. The following youtube link will go over how to connect to the database and run the routes.
+We then need to create and populate the database with information.
+
+After navigating to the 'db' folder and logging in to mysql we do this by using
+
+```
+source schema.sql
+```
+
+and
+
+```
+source seeds.sql
+```
+
+Finally to initiate the application, we return to the root folder and use the command
+
+```
+node index.js
+```
 
 ## Walkthrough
 ```
