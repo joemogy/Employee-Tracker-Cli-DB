@@ -1,7 +1,7 @@
 {
   "name": "Employee-Traker-Cli-DB",
   "version": "1.0.0",
-  "description": "",
+  "description": "This employee tracker is a node app utilizing mysql, inquirer, and console.table to read and update a company's employee data.",
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
