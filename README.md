@@ -82,6 +82,6 @@ npm start
 
 ## Socials
 
-For details regarding the specific application, proceed to the repository: [https://github.com/wiju24/Sql-Employee-Tracker](https://github.com/joemogy/employee-Traker-Cli-DB)
+For details regarding the specific application, proceed to the repository: [https://github.com/joemogy/employee-Traker-Cli-DB](https://github.com/joemogy/employee-Traker-Cli-DB)
 
 For details regarding the Github profile, click on the link: https://github.com/Joemogy
