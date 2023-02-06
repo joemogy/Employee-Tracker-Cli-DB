@@ -1,5 +1,5 @@
 {
-  "name": "employee-Traker-Cli-DB",
+  "name": "Employee-Traker-Cli-DB",
   "version": "1.0.0",
   "description": "",
   "main": "Server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joemogy/employee-Traker-Cli-DB.git"
+    "url": "git+https://github.com/joemogy/Employee-Traker-Cli-DB.git"
   },
   "keywords": [],
   "author": "Joseph Mogavero",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jjoemogy/employee-Traker-Cli-DB/issues"
+    "url": "https://github.com/jjoemogy/Employee-Traker-Cli-DB/issues"
   },
-  "homepage": "https://github.com/joemogy/employee-Traker-Cli-DB#readme",
+  "homepage": "https://github.com/joemogy/Employee-Traker-Cli-DB#readme",
   "dependencies": {
     "chalk": "^4.1.1",
     "console.table": "^0.10.0",
