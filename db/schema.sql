@@ -31,5 +31,3 @@ CREATE TABLE employee (
   REFERENCES employee(id)
   ON DELETE SET NULL
 );
-
--- Don't forget to add employee manager relationship if you can figure it out
